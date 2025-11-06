@@ -1,0 +1,190 @@
+@import url("global.css");
+
+/* Main content */
+.main-content {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 22px;
+}
+
+.main-image img {
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.main-content h2 {
+    color: #3FA752;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.main-content h3 {
+    font-size: 13px;
+}
+
+.main-content p {
+    font-size: 12px;
+}
+
+.images-explore {
+    display: flex;
+}
+
+.images-explore img {
+    display: flex;
+    width: 50%;
+    height: 40%;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+.images-kids-teachers-researchers {
+    display: flex;
+}
+
+.images-kids-teachers-researchers img {
+    border-radius: 5px;
+    margin-right: 70px;
+    margin-bottom: 150px;
+    width: 35%;
+    height: 35%;
+}
+
+.opening-hours {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.opening-hours h4 {
+    font-size: 16px;
+    text-align: left;
+}
+
+.opening-hours-horizontal {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.opening-hours img {
+    height: 300px;
+    width: 200px;
+    margin-top: 0;
+    display: block;
+    flex-shrink: 0;
+}
+
+.opening-hours ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 60px;
+}
+
+.opening-hours p {
+    width: 200px;
+    line-height: 25px;
+    font-size: 12px;
+}
+
+/* Responsive main content */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .main-content {
+        margin-top: 50px;
+        line-height: 26px;
+    }
+
+    .main-image img {
+        height: 400px;
+    }
+
+    .main-content h2 {
+        font-size: 26px;
+    }
+
+    .main-content h3,
+    .main-content p {
+        font-size: 16px;
+    }
+
+    .images-kids-teachers-researchers img {
+        margin-bottom: 200px;
+        margin-right: 100px;
+    }
+
+    .opening-hours {
+        width: 650px;
+        height: 420px;
+    }
+
+    .opening-hours img {
+        height: 350px;
+        width: 250px;
+    }
+
+    .opening-hours h4 {
+        font-size: 20px;
+    }
+
+    .opening-hours ul {
+        font-size: 18px;
+        margin-top: 40px;
+        width: 300px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .main-image img {
+        height: 600px;
+    }
+
+    .main-content {
+        margin-top: 80px;
+        line-height: 35px;
+    }
+
+    .main-content h2 {
+        font-size: 30px;
+    }
+
+    .main-content h3,
+    .main-content p {
+        font-size: 20px;
+    }
+
+    .images-kids-teachers-researchers img {
+        margin-bottom: 200px;
+        margin-right: 150px;
+    }
+
+    .opening-hours {
+        width: 800px;
+        height: 500px;
+    }
+
+    .opening-hours img {
+        height: 400px;
+        width: 320px;
+    }
+
+    .opening-hours h4 {
+        font-size: 24px;
+    }
+
+    .opening-hours ul {
+        font-size: 22px;
+        margin-top: 40px;
+        width: 300px;
+        line-height: 40px;
+    }
+}

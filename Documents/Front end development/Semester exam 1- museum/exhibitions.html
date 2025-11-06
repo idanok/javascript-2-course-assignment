@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore all our exhibition spaces. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us. You can also discover the origins of life on this planet and how the species we know today have evolved over time. Or maybe you want to learn more about robotics and AI and how that affects our future. We have lots of exhibitions and some special events coming up.">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Ida Nøkland">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="exhibitions.css">
+    <title>Exhibitions Page</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Top bar with search and menu -->
+        <div class="top-bar">
+            
+    
+            <!-- Mobile hamburger menu -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+            <label for="menu-toggle" class="hamburger-icon">☰</label>
+
+            <nav class="side-menu">
+                <label for="menu-toggle" class="close-btn">&times;</label>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="contribution.html">Contribution</a>
+                <a href="exhibitions.html">Exhibitions</a>
+                <a href="document.html">Document</a>
+            </nav>
+    
+            <!-- Desktop menu -->
+            <nav class="desktop-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contribution.html">Contribution</a></li>
+                    <li><a href="exhibitions.html">Exhibitions</a></li>
+                    <li><a href="document.html">Document</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <!-- Logo below -->
+        <section class="logo">
+            <a href="index.html">
+                <img src="img/science-logo.jpg" alt="green and black, atom and keyhole logo">
+                <h1>
+                    <span class="green">Lyng</span><span class="black">dal</span>
+                    <span class="green">Scien</span><span class="black">ce</span>
+                    <span class="green">Muse</span><span class="black">um</span>
+                </h1>
+            </a>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <h2>Exhibition Spaces</h2>
+
+            <article class="cosmology">
+                <h3>Cosmology</h3>
+                <p>Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us. We’ll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.</p>
+                <p>Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest exploration of the planets in our solar system.</p>
+                <figure>
+                    <img src="img/celso.jpg" alt="All planets horizontally lined up with black background">
+                    <img src="img/space.jpg" alt="Colorful night sky space">
+                </figure>
+            </article>
+
+            <article class="evolution">
+                <h3>Evolution</h3>
+                <p>For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we come from and how did we get here? Since Darwin proposed his theory of evolution, we have had a framework for exploring and understanding our place in this world.</p>
+                <p>Discover the origins of life on this planet and how the species we know today have evolved over time. You can also take some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too.</p>
+                <figure>
+                    <img src="img/skeleton.jpg" alt="Four skeletons in different sizes">
+                    <img src="img/evolution.jpg" alt="From monkey to human evolution">
+                </figure>
+            </article>
+
+            <article class="biology-medicine">
+                <h3>Biology and Medicine</h3>
+                <p>From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world.</p>
+                <p>Life expectancy is much longer and quality of life improved thanks to medical advances. This exhibit explores the history of medicine including penicillin and the first heart transplant.</p>
+                <p>Many medical discoveries have come from observing animals in the wild—not just labs.</p>
+                <figure>
+                    <img src="img/heart.jpg" alt="A construction of the heart">
+                    <img src="img/jesse.jpg" alt="A see-through skull with colorful parts inside">
+                </figure>
+            </article>
+
+            <article class="robotics-AI">
+                <h3>Robotics and AI</h3>
+                <p>The information revolution is here and robotics and artificial intelligence are the science of the future. From home uses of AI to industrial robotics, the future is now. You can even say hello and shake hands with Rob the Robot.</p>
+                <figure>
+                    <img src="img/billetto.jpg" alt="A boy painting with VR headset on">
+                    <img src="img/robot.jpg" alt="A white robot">
+                </figure>
+            </article>
+
+            <article class="ecology">
+                <h3>Ecology</h3>
+                <p>As we learn more about human impact on the planet, it becomes essential to explore sustainable solutions for all life.</p>
+                <p>This section highlights climate change, extinction, and pollution—and ways we can each help build a brighter future.</p>
+                <figure>
+                    <img src="img/ecology.jpg" alt="Two hands holding a green plant">
+                    <img src="img/world.jpg" alt="A globe on green grass">
+                </figure>
+            </article>
+        </section>
+
+        <section class="events">
+            <h2>Special Events and Exhibitions</h2>
+
+            <article>
+                <h3>News</h3>
+                <img src="img/exhibition.jpg" alt="Museum exhibition room with benches and cool pictures and furniture">
+            </article>
+
+            <article>
+                <h3>Visiting Professor of Aeronautics</h3>
+                <p>Prof. Sheila Widnall from MIT will deliver three lectures on the development of aeronautics and the future of space science.</p>
+            </article>
+
+            <article>
+                <h3>Night in the Museum</h3>
+                <p>Bring your family for a sleepover among dinosaurs and science displays. Pack your sleeping bag and prepare for a night of discovery!</p>
+            </article>
+
+            <article>
+                <h3>Energetica Exhibition on Loan</h3>
+                <p>On loan from NEMO Science Museum, the Energetica exhibition showcases interactive installations on wind, solar, and elemental power.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <section class="footer-content">
+            <section class="logo">
+                <img src="img/science-logo.jpg" alt="green and black, atom and keyhole logo">
+                <h1>Lyngdal Science Museum</h1>
+            </section>
+
+            <section class="opening-hours">
+                <h2>Opening Hours</h2>
+                <ul>
+                    <li>Monday: Closed</li>
+                    <li>Tuesday – Thursday: 10:00 – 16:00</li>
+                    <li>Friday: 10:00 – 19:00</li>
+                    <li>Saturday: 09:00 – 16:00</li>
+                    <li>Sunday: 09:00 – 13:00</li>
+                </ul>
+                <p><strong>Location:</strong> Romskogveien 2, 4580 Lyngdal</p>
+            </section>
+        </section>
+        <p class="copyright">&copy; Lyngdal Science Museum 2023. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

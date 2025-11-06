@@ -1,0 +1,347 @@
+@import url("global.css");
+
+.main-content {
+    padding: 2rem;
+}
+
+
+
+/* Main content */
+.main-content h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.underline-text {
+    display: inline;
+    border-bottom: 2px solid #000000;
+}
+
+.center-headline {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.main-content h3 {
+    font-size: 13px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.main-content p {
+    font-size: 12px;
+    margin-left: 50px;
+    margin-right: 200px;
+    line-height: 20px;
+}
+
+.p-img-horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-img-horizontal img {
+    height: 130px;
+    width: auto;
+    margin-right: 200px;
+    border-radius: 5px;
+}
+
+.p-img-horizontal p {
+    font-size: 12px;
+    width: 600px;
+    margin-right: 210px;
+    margin-bottom: 50px;
+}
+
+.perks-container-big {
+    background-color: #A4E8B0;
+    padding: 50px;
+    width: 150px;
+    height: 100px;
+    border-radius: 100px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: 5px solid #A4E8B0;
+}
+
+.perks-container-big p {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.perks-container-medium {
+    background-color: #A4E8B0;
+    padding: 50px;
+    width: 130px;
+    height: 50px;
+    border-radius: 90px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 40%;
+    border: 5px solid #A4E8B0;
+}
+
+.perks-container-medium p {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.perks-container-horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perks-container-small {
+    background-color: #A4E8B0;
+    padding: 50px;
+    width: 100px;
+    height: 20px;
+    border-radius: 100px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    margin-left: 180px;
+    border: 5px solid #A4E8B0;
+}
+
+.perks-container-small p {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    width: 150px;
+    margin-top: -10px;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    padding: 50px;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    border: 10px solid #A4E8B0;
+}
+
+.contact-form p {
+    font-size: 12px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.contact-form button {
+    background-color: #A4E8B0;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    width: 100px;
+    font-size: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .main-content h2 {
+        font-size: 26px;
+        margin-top: 100px;
+    }
+
+    .main-content h3 {
+        font-size: 16px;
+        margin-left: 80px;
+    }
+
+    .p-img-horizontal img {
+        height: 160px;
+        width: auto;
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+
+    .p-img-horizontal p {
+        font-size: 16px;
+        line-height: 30px;
+        width: 600px;
+        margin-right: 210px;
+        margin-left: 80px;
+        width: 800px;
+    }
+
+    .perks-container-big {
+        width: 200px;
+        height: 150px;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+
+    .perks-container-big p {
+        font-size: 16px;
+        width: 200px;
+        margin-left: 10px;
+        line-height: 25px;
+    }
+
+    .perks-container-medium {
+        width: 180px;
+        height: 90px;
+        margin-top: 100px;
+        margin-left: 40px;
+        margin-right: 60%;
+    }
+
+    .perks-container-medium p {
+        font-size: 16px;
+        width: 180px;
+        margin-left: 10px;
+        line-height: 25px;
+    }
+
+    .perks-container-small {
+        width: 120px;
+        height: 20px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        margin-left: 280px;
+    }
+
+    .perks-container-small p {
+        font-size: 16px;
+        width: 150px;
+        line-height: 25px;
+    }
+
+    .contact-form {
+        padding: 50px;
+        width: 420px;
+        height: 150px;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+
+    .contact-form p {
+        font-size: 16px;
+        width: 400px;
+        margin-left: 20px;
+        line-height: 25px;
+    }
+
+    .contact-form button {
+        padding: 10px;
+        width: 100px;
+        font-size: 12px;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .main-content h2 {
+        font-size: 30px;
+        margin-top: 130px;
+    }
+
+    .main-content h3 {
+        font-size: 20px;
+        margin-left: 100px;
+        margin-top: 150px;
+    }
+
+    .p-img-horizontal img {
+        height: 200px;
+        width: auto;
+        margin-right: 100px;
+        border-radius: 5px;
+    }
+
+    .p-img-horizontal p {
+        font-size: 20px;
+        line-height: 30px;
+        width: 600px;
+        margin-right: 210px;
+        margin-left: 100px;
+        width: 1000px;
+    }
+
+    .perks-container-big {
+        width: 300px;
+        height: 220px;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+
+    .perks-container-big p {
+        font-size: 20px;
+        width: 280px;
+        margin-top: 10px;
+        margin-left: 10px;
+        line-height: 35px;
+    }
+
+    .perks-container-medium {
+        width: 240px;
+        height: 130px;
+        margin-top: 140px;
+        margin-left: 40px;
+        margin-right: 60%;
+    }
+
+    .perks-container-medium p {
+        font-size: 20px;
+        width: 250px;
+        margin-top: 10px;
+        margin-left: 10px;
+        line-height: 35px;
+    }
+
+    .perks-container-small {
+        width: 180px;
+        height: 60px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        margin-left: 420px;
+    }
+
+    .perks-container-small p {
+        font-size: 20px;
+        width: 200px;
+        margin-left: 10px;
+        line-height: 35px;
+    }
+
+    .contact-form {
+        padding: 50px;
+        width: 600px;
+        height: 200px;
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+
+    .contact-form p {
+        font-size: 20px;
+        width: 600px;
+        margin-top: 10px;
+        margin-left: 20px;
+        line-height: 35px;
+    }
+
+    .contact-form button {
+        padding: 15px;
+        width: 150px;
+        font-size: 16px;
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+}
